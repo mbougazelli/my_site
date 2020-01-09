@@ -7,22 +7,23 @@ body {
 h1 {
   font-size: 5.625rem;
   margin: 50px auto 50px auto;
-  font-family: 'Parisienne', cursive;
+  font-family: 'Kaushan Script', cursive;
   color: #66BFBF;
 }
 h2 {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 2.5rem;
   font-weight: normal;
   color: #66BFBF;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
+
 h3 {
-  font-family: 'Rochester', cursive;
+  font-family: 'Roboto', sans-serif;
   color: #11999E;
 }
 hr {
-  color: #EAF6F6;
+  color: #bbded6;
   width: 4%;
   border-width: 6px;
   border-style: dotted none none;
@@ -42,12 +43,13 @@ a:hover {
   color: #eaf6f6;
 }
 .top-container {
-  background-color: #f6e1e1;
+  background-color: #ecfcff;
   position: relative;
   padding-top: 200px;
 }
 .middle-container {
-margin: 100px 0;
+  background-color: #fae3d9;
+  padding: 100px 0;
 }
 .bottom-container {
 background-color: #ffb6b9;
@@ -68,7 +70,18 @@ padding: 50px 0 20px;
 .bot-cloud {
   position: absolute;
   left: 350px;
-  bottom: 300px;
+  bottom: 380px;
+}
+.dragon {
+  position: absolute;
+  left: 100px;
+  top: 90px;
+  height: 300px;
+  width: 600px;
+}
+.mountain {
+  height: 450px;
+  width: 800px;
 }
 
 .skill-row {
@@ -85,12 +98,12 @@ padding: 50px 0 20px;
 .michel {
   width: 25%;
 }
-.computer {
+.top {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
-.katakuri {
+.mid {
   width: 25%;
   float: right;
   margin-left: 30px;
